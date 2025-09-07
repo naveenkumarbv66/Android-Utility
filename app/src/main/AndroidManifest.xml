@@ -28,7 +28,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidUtility">
         <activity
-            android:name=".MainActivity"
+            android:name=".userPermissions.viewModeluserPermission.PermissionTestActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.AndroidUtility">
@@ -38,6 +38,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <!-- Test Activity for MVVM Permission Library (not called from MainActivity) -->
+<!--        <activity-->
+<!--            android:name=".userPermissions.viewModeluserPermission.PermissionTestActivity"-->
+<!--            android:exported="false"-->
+<!--            android:label="Permission Library Test"-->
+<!--            android:theme="@style/Theme.AndroidUtility" />-->
     </application>
 
 </manifest>
